@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: mn;
+  src: url("../fonts/MTD Clarkson Script.otf");
+}
+
+@font-face {
+  font-family: mont;
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: mon;
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: mon;
+    
+    
+}
+.container
+{
+    width: 6400px;
+    height: auto;
+    background-color: black;
+}
+
+section
+{
+    width: 1600px;
+    height: auto;
+    background-color: black;
+    float:left;
+    color: white;
+    font-size: 14pt;
+    padding-top: 80px;
+    box-sizing: border-box;
+    
+}
+
+header
+{
+    width: 1600px;
+    height: 80px;
+    position: fixed;
+}
+
+.logo
+{
+    width: 20%;
+    height: 80px;
+    float: left;
+    padding-top: 2px;
+    box-sizing: border-box;
+
+}
+
+.menu
+{
+    width: 80%;
+    height: 80px;
+    float: right;
+    
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 20px 60px;
+  background-color: #423F3F;
+  cursor: pointer;
+  font-size: 30px;
+    font-family: mn;
+   
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+  background-color: #C40408;
+  color: red;
+}
+
+.menu #myDIV a
+{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.cot
+{
+width: 430px;
+    height: auto;
+    padding-left: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #8A8888;
+    float: left;
+    padding-bottom: 50px;
+
+}
+
+.cottrai
+{
+width: 430px;
+    height: 800px;
+    padding-left: 30px;
+    padding-top:50px;
+    box-sizing: border-box;
+    text-align: left;
+    color: #8A8888;
+    float: left;
+
+}
+
+h1
+{
+    color: white;
+    font-family: mont;
+    font-size: 18pt;
+   
+}
+
+.noidung
+{
+    width: 1300px;
+    height: auto;
+   padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.phandoan
+{
+    -moz-column-count: 3;
+-moz-column-gap: 30px;
+-webkit-column-count: 3;
+-webkit-column-gap: 30px;
+column-count: 3;
+column-gap: 30px;
+}
+
+.copyright
+{
+    width: 1600px;
+    height: auto;
+    color: white;
+    text-align: right;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+
+}
